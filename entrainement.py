@@ -7,13 +7,13 @@ import numpy as np
 from tensorflow.keras import layers, models
 from tensorflow.keras.datasets import mnist
 
-print("🚀 Démarrage de l'entraînement...")
+print(" Démarrage de l'entraînement...")
 
 # Créer le dossier pour les résultats
 os.makedirs('resultats', exist_ok=True)
 
 # Charger les données MNIST
-print("📥 Chargement des données MNIST...")
+print(" Chargement des données MNIST...")
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
 print(f" Données chargées !")
@@ -21,7 +21,7 @@ print(f"   - Images d'entraînement : {x_train.shape}")
 print(f"   - Images de test : {x_test.shape}")
 
 # Préparer les données
-print("🔧 Préparation des données...")
+print(" Préparation des données...")
 x_train = x_train.reshape(-1, 28 * 28) / 255.0  # Aplatir et normaliser
 x_test = x_test.reshape(-1, 28 * 28) / 255.0
 
