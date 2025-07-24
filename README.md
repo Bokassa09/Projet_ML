@@ -1,30 +1,20 @@
-# Projet_ML
+Projet MNIST - Réseau de Neurones Profond (DNN)
+ Description
 
-## Description
+Ce projet consiste à entraîner un réseau de neurones dense (DNN) sur le célèbre jeu de données MNIST (images de chiffres manuscrits). Il inclut la visualisation des données, l'entraînement du modèle, l'évaluation, et la sauvegarde des performances et du modèle.
 
-Ce projet vise à prédire si un patient est atteint de diabète ou non à partir d'un ensemble de données médicales. Il utilise des techniques de Machine Learning, telles que **KNN** et **l’arbre de décision**, pour effectuer des prédictions.
+Technologies utilisées
 
-## Objectif
+    Python 3.x
 
-L'objectif de ce projet est de **prédire le diabète** à partir d’un ensemble de données médicales en utilisant des algorithmes d’apprentissage supervisé. Il s’agit d’un problème de **classification binaire** (`0 = Pas de diabète`, `1 = Diabète`), basé sur des attributs comme :
-- Le taux de glucose
-- L’indice de masse corporelle (IMC)
-- L'âge du patient
-- Le nombre de grossesses, etc.
+    TensorFlow / Keras
 
-## Prérequis
+    NumPy, Matplotlib, PIL
 
-Avant de commencer, assurez-vous d’avoir installé les outils suivants :
+    Scikit-learn
 
-- **Python 3.x**
-- **Un environnement virtuel (`venv`)**
-- **Bibliothèques Python** : `scikit-learn`, `pandas`, `numpy`, `matplotlib`, `seaborn`
+Installation
 
-### Installation des dépendances :
+Installe les dépendances avec pip :
 
-1️⃣ **Créer et activer un environnement virtuel (`venv`)** :
-```bash
-python -m venv venv
-source venv/bin/activate  # Sur Linux/Mac
-venv\Scripts\activate     # Sur Windows
-
+pip install tensorflow matplotlib numpy scipy pandas scikit-learn
