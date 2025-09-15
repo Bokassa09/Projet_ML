@@ -1,0 +1,23 @@
+EXEMPLES D'ERREURS
+==================
+
+Image 20 : Vraie classe = 9, Prédiction = 7, Confiance = 0.888
+Image 96 : Vraie classe = 1, Prédiction = 9, Confiance = 0.882
+Image 247 : Vraie classe = 4, Prédiction = 2, Confiance = 0.999
+Image 321 : Vraie classe = 2, Prédiction = 7, Confiance = 1.000
+Image 340 : Vraie classe = 5, Prédiction = 3, Confiance = 0.998
+Image 359 : Vraie classe = 9, Prédiction = 4, Confiance = 0.566
+Image 381 : Vraie classe = 3, Prédiction = 7, Confiance = 0.835
+Image 412 : Vraie classe = 5, Prédiction = 3, Confiance = 0.777
+Image 582 : Vraie classe = 8, Prédiction = 2, Confiance = 1.000
+Image 659 : Vraie classe = 2, Prédiction = 7, Confiance = 0.949
+Image 674 : Vraie classe = 5, Prédiction = 3, Confiance = 0.837
+Image 691 : Vraie classe = 8, Prédiction = 4, Confiance = 0.940
+Image 720 : Vraie classe = 5, Prédiction = 8, Confiance = 1.000
+Image 846 : Vraie classe = 7, Prédiction = 9, Confiance = 0.924
+Image 857 : Vraie classe = 5, Prédiction = 3, Confiance = 0.623
+Image 900 : Vraie classe = 1, Prédiction = 3, Confiance = 0.998
+Image 947 : Vraie classe = 8, Prédiction = 9, Confiance = 0.981
+Image 951 : Vraie classe = 5, Prédiction = 9, Confiance = 0.550
+Image 956 : Vraie classe = 1, Prédiction = 3, Confiance = 0.777
+Image 1003 : Vraie classe = 5, Prédiction = 3, Confiance = 0.941
